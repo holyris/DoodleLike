@@ -1,0 +1,129 @@
+body {
+	text-align: center;
+	font-family: arial;
+	background-color: lightblue;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: gray;
+	margin-top: 0px;
+	height: 40px;
+	font-size: 150%;
+}
+
+header p {
+	margin-top: 0px;
+	font-weight: bold;
+	padding: 5px;
+	margin-left: 20px;
+	text-decoration: none;
+	color: black;
+	float: left;
+}
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+header button {
+	margin-top: 8px;
+	margin-right: 20px;
+	border-radius: 20px;
+	color: black;
+	float: right;
+	background-color: white;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+header #Inscription {
+	margin-left: 30px;
+}
+
+#who p{
+	margin-top: 0px;
+	font-weight: normal;
+	padding: 5px;
+	margin-left: 27%;
+	text-decoration: none;
+	float: left;
+	color: white;
+	font-size: 80%;
+}
+
+#body {
+	font-size: 110%;
+	margin-top: 80px;
+}
+
+#body button {
+	margin-top: 8px;
+	margin-right: 10px;
+	border-radius: 20px;
+	color: black;
+	padding: 5px;
+	background-color: white;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#body button {
+	margin-left: 10px;
+	border: 1px solid black;
+}
+
+#body p {
+	font-size: 20px;
+}
+
+.champ {
+	height: 20px;
+	width: 20%;
+}
+
+ul {
+	border: 1px solid black;
+	padding-left: 0;
+	list-style-type: none;
+	width: 80%;
+	margin-left: 10%;
+}
+
+li {
+	border-bottom: 1px solid black;
+	margin: 0;
+	line-height: 1.5rem;
+	padding: 10px 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li:last-child{
+	border: none;
+}
+
+#details {
+	border: 1px solid black;
+	padding-left: 0;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#details li {
+	text-align: left;
+	list-style: none;
+}
+
+#suppr {
+	color: darkred;
+	float: right;
+}
